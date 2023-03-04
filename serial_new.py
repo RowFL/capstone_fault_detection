@@ -15,13 +15,13 @@ def read_data():
         voltage = ser.readline().decode().strip()
         current = ser.readline().decode().strip()
 
-        # Calculate voltage and current ratios
-        v_ratio = voltage / voltage_est
-        i_ratio = current / current_est
+        # # Calculate voltage and current ratios
+        # v_ratio = voltage / voltage_est
+        # i_ratio = current / current_est
 
-        # Do some mathematical operations using the ratios
-        power = v_ratio * i_ratio
-        resistance = voltage / current
+        # # Do some mathematical operations using the ratios
+        # power = v_ratio * i_ratio
+        # resistance = voltage / current
 
         # # Print the results
         print("Voltage: {voltage} V, Current: {current} A")
