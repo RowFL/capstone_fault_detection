@@ -236,7 +236,7 @@ rules = {
     active_rule3 : 'PS_BP',
     active_rule4 : 'T_Short_ckt',
     active_rule5 : 'F_Short_ckt',
-    active_rule6 : 't_open_ckt',
+    active_rule6 : 't_open_ckt',s
     active_rule7 : 'F_Open_ckt',
     active_rule8 : 'Leaves_dropping'
 }
